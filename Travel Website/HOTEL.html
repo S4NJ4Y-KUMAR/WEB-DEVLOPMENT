@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1 align="center">WELCOME</h1>
+    <h3 align="center">PLEASE BOOK YOUR HOTELS</h3>
+    <form action="">
+
+  <div>
+    <h2>Booking & contact</h2>
+    <div>
+      <label for="name">Name</label>
+      <input type="text">
+
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="text"name="email">
+
+    </div>
+    <div>
+      <label for="phone">Phone</label>
+      <input type="tel" name="phone">
+
+    </div>
+      <div>
+
+          <label for="street">Street</label>
+           <input type="text" " name="street">
+
+
+        </div>
+        <div>
+            <label for="street-number">Number</label>
+            <input type="number"  name="street-number">
+
+          </div>
+        </div>
+
+      <div>
+
+            <label for="city">City</label>
+            <input type="text"  name="city">
+
+          </div>
+
+            <label for="post-code">Post Code</label>
+            <input type="text" " name="post-code">
+
+
+        <label for="country">Country</label>
+        <input type="text" id="country" class="floatLabel" name="country">
+
+
+  <div >
+    <h2 >Details</h2>
+
+
+
+        <input type="date" id="arrive" class="floatLabel" name="arrive" value="<?php echo date('Y-m-d'); ?>">
+        <label for="arrive" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Arrive</label>
+      </div>
+
+      <div>
+        <input type="date" id="depart" class="floatLabel" name="depart" value="<?php echo date('Y-m-d'); ?>" />
+        <label for="depart" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Depart</label>
+      </div>
+
+      <div>
+
+      <div>
+
+        <select>
+          <option value="blank"></option>
+          <option value="1">1</option>
+          <option value="2" selected>2</option>
+          <option value="3">3</option>
+        </select>
+        <label for="fruit"><i class="fa fa-male"></i>&nbsp;&nbsp;People</label>
+      </div>
+    </div>
+
+
+      <select class="floatLabel">
+        <option value="blank"></option>
+        <option value="deluxe" selected>With Bathroom</option>
+        <option value="Zuri-zimmer">Without Bathroom</option>
+      </select>
+      <label for="fruit">Room</label>
+
+
+      <select>
+        <option value="blank"></option>
+        <option value="single-bed">Zweibett</option>
+        <option value="double-bed" selected>Doppelbett</option>
+      </select>
+      <label for="fruit">Bedding</label>
+
+      <div>
+        <p>Please describe your needs e.g. Extra cots</p>
+        <br>
+
+          <textarea name="comments"  id="comments"></textarea>
+          <label for="comments">Comments</label>
+          </div>
+            <button type="submit" value="Submit">Submit</button>
+
+</form>
+  </body>
+</html>

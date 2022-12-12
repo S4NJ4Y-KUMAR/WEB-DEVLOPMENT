@@ -1,0 +1,98 @@
+.body{
+    background-image: url("amrita.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box{
+    margin: auto;
+    border: 3px;
+    padding: 10px;
+    width: 500px;
+    height: fit-content;
+    padding: 14px 16px;
+    background-color:rgb(0, 8, 10) ;
+    border-radius: 15px;
+    opacity: 55%;
+  text-align: center;
+}
+
+.cl{
+    color: rgb(255, 255, 255);
+
+}
+.cls{
+    padding-right: 200px;
+    color: rgb(255, 255, 255);
+}
+.chbx{
+    padding-right: 150px;
+    color: rgb(255, 255, 255);
+}
+.chbxS{
+    padding-right: 105px;
+    color: rgb(255, 255, 255);
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a:hover {
+    background-color: whitesmoke;
+    color: #c70a4b;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+    padding-top: 4px;
+    
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(255, 253, 253);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    font-size: large;
+    
+  }
+  
+  .topnav a:hover, .dropdown:hover .dropbtn {
+    background-color: white;
+    color: #c70a3f;
+   
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: contents;
+  }

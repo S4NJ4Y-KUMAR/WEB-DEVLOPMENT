@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>UID LAB Excercises
+    </title>
+    <style>
+        body {
+            background-image: url("bg2.jpg");
+            height:750px;
+            top: 0%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+        }
+
+        .container {
+
+            min-width: 320px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 55%;
+
+        }
+
+        .block {
+            background-color: #ffffffb9;
+            color: black;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 100px 100px rgba(0, 0, 0, 0.3);
+            line-height: 2em;
+            font-size: 1.5em;
+        }
+
+        a {
+
+    background-image: linear-gradient(to right, #1a2035, #275f9a 50%, rgb(9, 23, 131) 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+            text-decoration: none;
+            color: black;
+        }
+        a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    background-position: 0;
+}
+
+a:hover::before {
+    width: 100%;
+}
+a.span1:hover, a.span1:active {font-size: 150%;}
+a.span1:hover, a.span1:active {color: #03c6fc;}
+a.span2:hover, a.span2:active {font-size: 150%;}
+a.span2:hover, a.span2:active {color: #03c6fc;}
+
+        
+    </style>
+    <link rel="shortcut icon" href="fevi.ico" >
+</head>
+
+<body>
+    <div style=" float:right; font-size: 15px;color: white;">
+        <p>SANJAY KUMMAR A<br>CH.EN.U4CYS21072</p>
+    </div>
+    <center><img src="imag.png" style="padding-left: 150px ;"></center>
+    <div class="container block">
+        <ul style="list-style:none;">
+            <li><a class="span1" href="Capstone Project\index.html">Capstone Project</a></li>
+            <li><a  class="span1" href="Travel Website/index.html">Exercise 1 [Travel Agency]</a></li>
+            <li><a  class="span1" href="Exhibition Website/index.html">Exercise 2 [Science Symposium]</a></li>
+            <li><a  class="span1" href="reg-form/index.html">Exercise 3 [Registration Form]</a></li>
+            <li><a  class="span1" href="ACN/index.html">Exercise 4 [Amrita CyberNation]</a></li>
+            <li><a  class="span1" href="resume/index.html">Exercise 5 [Resume]</a></li>
+            <li><a  class="span1" href="Form Validation/index.html">Exercise 6 [FORM VALIDATION]</a></li>
+            <li><a  class="span1" href="Calculator/index.html">Exercise 7 [CALCULATOR]</a></li>
+            <li><a  class="span1" href="Mouse-Events/index.html">Exercise 8 [JS MouseEvents]</a></li>
+        </ul>
+    </div>
+</body>
+</html>

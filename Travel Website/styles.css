@@ -1,0 +1,27 @@
+.off{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 55%;
+}
+.tickets{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width:100%;
+}
+.top{
+  text-align: : 200px;
+  color: grey;
+}
+.OFFERS{
+  align-items: centre;
+  justify-content: center;
+  color: grey;
+
+}
+body{
+  background-color: #FFE898;
+}

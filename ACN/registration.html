@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="cyberevent.css">
+</head>
+<title>
+    Registration form
+</title>
+<body class="back"> 
+    <div>
+        <img src="https://dt19wmazj2dns.cloudfront.net/wp-content/themes/amrita/images/logo-colored.svg" alt="amrita" height="50" width="200">
+        
+        <h4 style="float:right; padding-top: -300px; margin-top: 10px; font-size: medium;" >S.R.Gokkulamoorthy <br>21019</h4>
+    </div>
+    
+    <div class="topnav" >
+        
+        <a class="active" href="file:///Users/gokkulamoorthy/Downloads/Documents/VS/Lab-ass-3/Main.html#home">Home</a>
+        <a href="file:///Users/gokkulamoorthy/Downloads/Documents/VS/Lab-ass-3/events.html">Event</a>
+        <a href="file:///Users/gokkulamoorthy/Downloads/Documents/VS/Lab-ass-3/location.html">Location</a>
+        <a href="file:///Users/gokkulamoorthy/Downloads/Documents/VS/Lab-ass-3/registration.html">Registration</a>
+          
+    </div>
+
+    <div>
+        <form class="txtcol">
+            <div >
+                <p class="amrita"> Amrita CyberNation</p>
+                <table> <h4 class="rig">Registration Form</h4>
+                    <tr>
+                        <td><label>Firstname  </label></td> <td><input type="type" name="Firstname" placeholder="firstname" size="15" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Middlename</label></td> <td><input type="text" name="Middlename" placeholder="middlename" size="15"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Lastname</label></td> <td><input type="text" name="Lastname" placeholder="lastname" size="15" required></td>
+                    </tr>
+                    <tr>
+                        <td><label > DOB </label></td> <td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label> Gender</label></td><td><input type="radio" value="Male" name="Gender" checked>Male
+                            <input type="radio" value="Female" name="Gender">Female
+                            <input type="radio" value="Other" name="Gender">Other</td>
+                    </tr>
+                    <tr>
+                        <td><label for="email" >Email</label></td><td><input type="text" placeholder="Enter Email" name="email" ></td>
+                    </tr>
+                    <tr>
+                        <td><label> Phone </label></td> <td><input type="text" name="Countrycode" placeholder="Country code" value="+91" size="3">
+                            <input type="text" name="Phone" placeholder="phone" pattern="[0-9]{10}" required></td>
+                    </tr>
+                    <tr>
+                        <td><label >Current Address</label></td> <td> <textarea cols="50" rows="5" placeholder="currentaddress" value="address" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label> Course </label></td> <td><select> 
+                            <option value="course">course</option>
+                            <option value="CYS">CYS</option>
+                            <option value="CSE">CSE</option>
+                            <option value="AI">AI</option>
+                            <option value="MECH">MECH</option>
+                            <option value="EEE">EEE</option>
+                            <option value="ECE">ECE</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label>Event</label></td><td><input type="checkbox" name="cour" id="con">
+                            <label for="con">Cyber concave </label><br>
+                            <input type="checkbox" name="cour" id="meet">
+                            <label for="meet">Industry Meet</label><br>
+                            <input type="checkbox" name="cour" id="fest">
+                            <label for="fest">Cyber Tech Fest</label></td>
+                    </tr>
+                    <tr>
+                        <td><label>ID Proof</label></td><td><input type="file" name="ID Proof"></td>
+                    </tr>
+                    <tr>
+                        <td><input class="button" type="submit" name="Register"> <input class="button" type="reset" name="reset" value="clear form"></td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
