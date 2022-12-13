@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="otp.css">	
+    <script type="text/javascript" src="otp.js"></script>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="content-container">
+          <div class="form-container">
+            <form action="/action_page.php">
+              <h1>
+                OTP
+              </h1>
+              <br>
+              <br>
+              <span class="subtitle">MOBILE NUMBER:</span>
+              <br>
+              <input type="tel" name="mobile" class="mobile" id="mobile" oninput="validateNumber()">
+              <p id="alert"></p>
+              <br>
+              <input type="submit" id="submit" value="SUBMIT" class="submit-btn" onclick="return sendOTP()" formaction="verify.html">  
+              <input type="submit" value="Signup" class="submit-btn" formaction="signup.html">
+              <input type="submit" value="Home" class="submit-btn" formaction="index.html">
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
